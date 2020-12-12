@@ -102,7 +102,29 @@
         </div>
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
-    <img src="./images/login.jpg" width="100%" height="auto">
+
+    <!-- Header -->
+    <header id="header" class="header" style="background-image: url(./images/Login-BG.jpg);">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1><span class="turquoise">Little Rose</span><br>Online Learning Portal</h1>
+                            <!-- <p class="p-large"></p> -->
+                            <a class="btn-solid-lg page-scroll" href="#Login">Login</a>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <!-- <img class="img-fluid" src="images/header-teamwork.svg" alt="alternative"> -->
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
 
     <div id="Login" class="cards-1">
         <div class="container">
@@ -114,7 +136,7 @@
                             <h5 class="card-title">LOGIN</h5>
                             <div class="form-group">
                                 <label id="Vemail" class="text-danger"></label>
-                                <input type="tel" class="form-control" id="email" placeholder="Username" name="email"
+                                <input type="text" class="form-control" id="email" placeholder="Username" name="email"
                                     pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                             </div>
                             <div class="form-group">
@@ -259,49 +281,53 @@
                         || USEREMAIL == "0702985530" || USEREMAIL == "0773666868" || USEREMAIL == "0716010547" || USEREMAIL == "0717426191" || USEREMAIL == "0715800322" || USEREMAIL == "0703862340") {
                         // valid user
 
+                        // Age 5-------------------------------------------------------------
                         if (USEREMAIL == "0719332522" && USERPASSWORD == "gavini123") {
-                            // Gavini Pahansa - Auth1-07
-                            window.open("./Activity/Auth1-07/User-Dashboard.jsp", "_self");
+                            // LR-20-001	Gavini Pahansa
+                            window.open("./Users/4-5/LR-20-001/dashboard.jsp", "_self");
                         }
                         else if (USEREMAIL == "0712343247" && USERPASSWORD == "sithuli123") {
-                            // Sithuli Sehansa - Auth1-08
-                            window.open("./Activity/Auth1-08/User-Dashboard.jsp", "_self");
+                            // LR-20-002	Sithuli Sehansa
+                            window.open("./Users/4-5/LR-20-002/dashboard.jsp", "_self");
                         }
                         else if (USEREMAIL == "0716010547" && USERPASSWORD == "sadew123") {
-                            // Sadew Mithsara - Auth1-09
-                            window.open("./Activity/Auth1-09/User-Dashboard.jsp", "_self");
+                            // LR-20-003	Sadew Mithsara	
+                            window.open("./Users/4-5/LR-20-003/dashboard.jsp", "_self");
                         }
                         else if (USEREMAIL == "0717426191" && USERPASSWORD == "senuka123") {
-                            // Senuka Sendunu - Auth1-10
-                            window.open("./Activity/Auth1-10/User-Dashboard.jsp", "_self");
+                            // LR-20-004	Senuka Sendunu
+                            window.open("./Users/4-5/LR-20-004/dashboard.jsp", "_self");
                         }
+                        // Age 4-------------------------------------------------------------
                         else if (USEREMAIL == "0715800322" && USERPASSWORD == "janupa123") {
-                            // Janupa Budhdhima - Auth0-01
-                            window.open("./Activity/Auth0-01/dashboard.jsp", "_self");
+                            // LR-20-005	Janupa Budhdhima
+                            window.open("./Users/3-4/LR-20-005/dashboard.jsp", "_self");
                         }
                         else if (USEREMAIL == "0703862340" && USERPASSWORD == "rusandu123") {
-                            // Rusandu Sansitha - Auth0-02
-                            window.open("./Activity/Auth0-02/dashboard.jsp", "_self");
+                            // LR-20-006	Rusandu Sansitha	
+                            window.open("./Users/3-4/LR-20-006/dashboard.jsp", "_self");
                         }
                         else if (USEREMAIL == "0767530696" && USERPASSWORD == "uvindi123") {
-                            // Uvindi Vidasna - Auth0-03
-                            window.open("./Activity/Auth0-03/dashboard.jsp", "_self");
+                            // LR-20-007	Uvindi Vidasna
+                            window.open("./Users/3-4/LR-20-007/dashboard.jsp", "_self");
                         }
                         else if (USEREMAIL == "0715551844" && USERPASSWORD == "thisuri123") {
-                            // Thisuri Amaya - Auth0-04
-                            window.open("./Activity/Auth0-04/User-Dashboard.jsp", "_self");
-                        }
-                        else if (USEREMAIL == "0702985530" && USERPASSWORD == "thimiska123") {
-                            // Thimiska - Auth0-06
-                            window.open("./Activity/Auth0-06/dashboard.jsp", "_self");
+                            // LR-20-008	Thisuri Amaya	
+                            window.open("./Users/3-4/LR-20-008/dashboard.jsp", "_self");
                         }
                         else if (USEREMAIL == "0773666868" && USERPASSWORD == "sauyl123") {
-                            // Sauyl Sasdula - Auth0-05
-                            window.open("./Activity/Auth0-05/dashboard.jsp", "_self");
+                            // LR-20-009	Sauyl Sasdula
+                            window.open("./Users/3-4/LR-20-009/dashboard.jsp", "_self");
                         }
+                        else if (USEREMAIL == "0702985530" && USERPASSWORD == "thimiska123") {
+                            // LR-20-010	Thimiska	
+                            window.open("./Users/3-4/LR-20-010/dashboard.jsp", "_self");
+                        }
+                        // Administrator-------------------------------------------------------------
                         else if (USEREMAIL == "dinukaindeewara@gmail.com" || USERPASSWORD == "sliit98gm") {
                             // Admin
                             window.open("./Administrator/index.jsp", "_self");
+                            // window.open("./Users/4-5/LR-20-001/dashboard.jsp", "_self");
                         }
                         else {
                             document.getElementById("Vemail").innerHTML = "";

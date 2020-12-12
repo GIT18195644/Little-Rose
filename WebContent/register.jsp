@@ -105,7 +105,7 @@
 
 
     <!-- Header -->
-    <header id="header" class="header">
+    <header id="header" class="header" style="background-image: url(./images/Register-BG.jpg);">
         <div class="header-content">
             <div class="container">
                 <div class="row">
@@ -118,7 +118,7 @@
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
                         <div class="image-container">
-                            <img class="img-fluid" src="images/header-teamwork.svg" alt="alternative">
+                            <!-- <img class="img-fluid" src="images/header-teamwork.svg" alt="alternative"> -->
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
