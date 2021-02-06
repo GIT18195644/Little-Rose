@@ -193,7 +193,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright - 2020 Little Rose Pre School - All rights
+                    <p class="p-small">Copyright - 2021 Little Rose Pre School - All rights
                         reserved</p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
